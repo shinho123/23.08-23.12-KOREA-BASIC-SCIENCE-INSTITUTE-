@@ -17,3 +17,6 @@
 
 ![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/4026b77a-ca3c-4d91-a390-e795af04cd62)
 
+# 수행 역할
++ 특허 데이터 수집(Google Patents), 데이터 필터링, 데이터 전처리, LDA 토픽 모델링, 네트워크 분석
+
