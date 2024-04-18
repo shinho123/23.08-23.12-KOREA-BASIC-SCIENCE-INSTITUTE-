@@ -103,10 +103,9 @@ ldamodel.print_topics(num_words = 10)
 
 ![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/63dee37e-cec6-4b94-8369-269ab7abe5fd)
 
-#### 6. 검색 결과
+#### 6. 검색 결과(총 40,052건)
 
 ![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/26dc0ab1-b737-45f7-9b46-f263036747c1)
-
 
 
 ## Ⅱ.토픽별 주제 선정 및 키워드 도출
