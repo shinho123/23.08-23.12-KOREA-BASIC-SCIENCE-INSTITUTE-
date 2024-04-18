@@ -167,5 +167,21 @@ ldamodel.print_topics(num_words = 10)
    + 기계공학 : Surface, Pipe, Housing
    + 기타 공학 및 설계과정 : Generating, Injection, Supply, Locate, Water
 
+#### 기계 구조 및 운동
+
+![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/a97e7771-198a-41df-a3d8-881fc33f127b)
+
++ 관련 단어
+  + 기계구조 및 운동 시스템 : Hole, Lower, Coil, Fixing, Support, Attached, Rotating, Direction, Vaccum, Plate, Coupled, Multiple, Fixed
+
+#### 광학 측정 및 운동 기술
+
+![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/955e61e2-de1e-4603-b462-e988f16064c4)
+
++ 관련 단어
+  + 광학 및 광전자 기술 : Light, Optical, Source, Transmission, Beam
+  + 측정 및 제어 기술 : Measuring, Control
+  + 각도 및 위치 조절 : Angle, Change, Target
+  + 기타 : According, Embodiment
 
 
