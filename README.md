@@ -3,6 +3,8 @@
 
 기간 : 23.08 ~ 23.12
 
+참여인원 : 8명
+
 # 연구 배경
 + 한국기초과학지원연구원 (이하 KBSI) 가 보유한 분석 장비를 대상으로 12대 국가전략기술에 해당하는 기술 및 관련 산업을 지원하고, 장비 활용도를 극대화하기 위한 신규 분석장비 개발 및 기존 분석장비 활용도 요구가 커지고 있음
 + 이에 KBSI가 보유한 분석장비 관련 기술의 경쟁력을 파악하고, 전략산업과 연관된 분석장비의 특성을 반영하여 분석장비 활용도를 높이고 자원 활용도를 극대화하는 것이 필요함
@@ -21,4 +23,24 @@
 + 특허 데이터 수집(Google Patents), 데이터 필터링, 데이터 전처리, LDA 토픽 모델링, 네트워크 분석
 
 + 데이터 수집 : Goole Patents에서 수집
+
+# 분석 결과
++ LDA 분석 결과 - 국내·외 MRAM(Magnetoresistive Random Access Memory)과 연관되어 있는 특허(총 31,148건) 중 특허의 'abstract'속성과 'title' 부분의 데이터를 결합 후 LDA 토픽 분석을 수행
++ MRAM과 연관되어 있는 특허에서 주로 중요한 관점으로 도출 되는 기술 키워드들을 분석
+  
+```python
+ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics = 6, id2word = dictionary, random_state = 3)
+ldamodel.print_topics(num_words = 10)
+```
+
+## 토픽별 주제 선정 및 키워드 도출
+
+![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/bed3332a-dee0-4b52-9ea1-e9675a0d8017)
+
++ Topic 1은 박막 및 회로 구조에서 바닥 부분에 위치한 절연 소재와 소재의 제조 과정에 관한 키워드로 구성되어 있음
++ insulating, dielectric - 절연소재, element, material - 소재, 성분, bottom, area - 위치, barrier - 경계, ferromagnetic - 자성 소재 
+
+
+
+
 
