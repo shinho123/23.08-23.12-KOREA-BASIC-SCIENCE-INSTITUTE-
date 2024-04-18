@@ -206,5 +206,33 @@ ldamodel.print_topics(num_words = 10)
   + 생성 및 분석 : Generated, Analysis, Containing
   + 비교 : Than
 
+#### 최적의 해결책을 위한 제조 및 품질 향상 
 
+![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/cff15287-2661-4b45-8a7b-ff85bedb9ebd)
 
++ 관련 단어
+  + 목적 및 해결책 : Purpose, Obtain, Solution, Preparing
+  + 양 / 수량 : Low, High, Large
+  + 제조 및 비율 : Comprises, Manufacturing, Ratio, Steps
+  + 품질 향상 : Improve
+ 
+#### 자기장 및 초전도체 효율 향상 
+
+![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/21148ae9-4d89-4ca4-9f9b-872cbac8ddd7)
+
++ 관련 단어
+  + 전류 및 전자 기기 : Current, Electrical, Resistance, Efficiency
+  + 자기장 : Magnetic, Magnet
+  + 초전도체 : Superconductive, Superconducting
+  + 분포 및 증가 : Distribution, Increase, Applying, Providing
+ 
+#### 물질 전이 및 이온 공급
+
+![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/17bbe456-c356-4bb4-bdf9-14bc7ed7fadd)
+
++ 관련 단어
+  + 물질 이동 : Tranfer, Supplied, Positioned
+  + 이온 : Ion
+  + 질량 및 레이어 : Mass, Layer
+  + 재료 : Material
+  + 계획 및 상태 : Predetermined
