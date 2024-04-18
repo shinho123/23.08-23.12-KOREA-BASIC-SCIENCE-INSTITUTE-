@@ -156,3 +156,16 @@ ldamodel.print_topics(num_words = 10)
 
 ![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/b4ab1810-50a8-4ff8-b108-d7515bcadbb2)
 
+#### 에너지 및 물리
+
+![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/8a893bc0-a0c7-4d99-a4ef-f230182aee39)
+
++ 관련 단어
+   + 전기 및 전자공학 : Voltage, Power, Electromagnetic, Frequency
+   + 물리학 및 열역학 : Wave, Pressure
+   + 플라즈마 : Plasma
+   + 기계공학 : Surface, Pipe, Housing
+   + 기타 공학 및 설계과정 : Generating, Injection, Supply, Locate, Water
+
+
+
