@@ -41,11 +41,64 @@ ldamodel.print_topics(num_words = 10)
 3. 다른 키워드와 함께 조합하면 검색되지 않으나 단일 키워드 검색만으로 많은 특허가 검색되는 키워드
 
 #### 1. 연구개요에서 기술적인 의미를 내포하는 키워드의 조합
-"극저온 전도냉각형 다축 자기장환경 프로브 스테이션 개발", "자성 메모리 소자의 특성", "메모리 소자 성능 개선 및 신소자 개발",
++ "극저온 전도냉각형 다축 자기장환경 프로브 스테이션 개발", "자성 메모리 소자의 특성", "메모리 소자 성능 개선 및 신소자 개발",
 "맴리스터 소자", "온도의존성", "웨이퍼 레벨의 검사 및 진단용", "전력반도체", "차량용반도체", "우주항공산업", "온도변화 내구성", "프로브스테이션", "냉각수단", "고온 분석 수단", "웨이퍼 레벨"의 "물성평가", "성능향상"
 
 
-#### 2. 
+#### 2. 1에서 수집한 기술 키워드를 영문으로 변경 후 키워드 조합 수행
+
+##### 시스템 관련 키워드
+
++ 다축자기장(multi-axis magnetic field or vector field), 전도냉각(conduction-cooled or conduction-cooling), 열스위치(heat switch), 전류도입선(or 전류인입선, current lead), 극저온 프로브 스테이션(cryogenic probe station), (다축)자기장 보정(multi-axis shim), 자기장 집속(flux focusing), 양산용 반도체 검사장비(Semiconductor inspection equipment for mass production), wafer level 검사장비(wafer inspection equipment)
+ 
+##### 시스템을 이용한 분석 관련 키워드
+
++ 자기메모리(MRAM) / 멤리스터(memristor) / 전력반도체(power semiconductor) / 우주항공(aerospace) / 차량용반도체(automotive semiconductors) / 심해탐사(deep sea exploration)+물성측정장비(physical property measurement system), 스핀(spin), 스핀토크(spin torque), MTJ(magnetic tunneling junction), 초전도 마그넷(superconducting magnet), 스핀분극(spin polarization), 자기이방성(magnetic anisotropy), 열-전기물성(열전물성, thermoelectric physical property), magnetic switching phase diagram, 고속 스위칭(fast switching), MRAM 상용화 공정 기술(MRAM-commercialization process technology)
+
+
+#### 3. 동일한 성격의 기술 분야로 키워드를 분류
+
+##### 자기장 및 냉각 관련 키워드 : 
+ 
++ 다축자기장(multi-axis magnetic field or vector field) - 시스템 관련 키워드
++ 전도냉각(conduction-cooled or conduction-cooling) - 시스템 관련 키워드
++ 열스위치(heat switch) - 시스템 관련 키워드
++ 극저온 프로브 스테이션(cryogenic probe station) - 시스템 관련 키워드
++ (다축)자기장 보정(multi-axis shim) - 시스템 관련 키워드
+
+##### 전력반도체 및 반도체 검사장비 관련 키워드 : 
+ 
+
++ 양산용 반도체 검사장비 (semiconductor inspection equipment for mass production) - 시스템 관련 키워드
++ wafer level 검사장비 (wafer inspection equipment) - 시스템 관련 키워드
++ 자기메모리 (MRAM) / 멤리스터 (memristor) - 시스템을 이용한 분석 관련 키워드
++ 전류도입선 (or 전류인입선, current lead) - 시스템 관련 키워드
+
+##### 분석 및 실험 관련 키워드 : 
+ 
++ 물성측정장비 (physical property measurement system) - 시스템을 이용한 분석 관련 키워드
++ 스핀 (spin) - 시스템을 이용한 분석 관련 키워드
++ 스핀토크 (spin torque) - 시스템을 이용한 분석 관련 키워드
++ MTJ (magnetic tunneling junction) - 시스템을 이용한 분석 관련 키워드
++ 초전도 마그넷 (superconducting magnet) - 시스템을 이용한 분석 관련 키워드
++ 스핀분극 (spin polarization) - 시스템을 이용한 분석 관련 키워드
++ 자기이방성 (magnetic anisotropy) - 시스템을 이용한 분석 관련 키워드
++ 열-전기물성 (열전물성, thermoelectric physical property) - 시스템을 이용한 분석 관련 키워드
++ magnetic switching phase diagram - 시스템을 이용한 분석 관련 키워드
++ 고속 스위칭 (fast switching) - 시스템을 이용한 분석 관련 키워드
+
+##### 응용 분야와 관련된 키워드 :
+ 
++ 전력반도체 (power semiconductor) - 시스템을 이용한 분석 관련 키워드
++ 우주항공 (aerospace) - 시스템을 이용한 분석 관련 키워드
++ 차량용반도체 (automotive semiconductors) - 시스템을 이용한 분석 관련 키워드
++ 심해탐사 (deep sea exploration) - 시스템을 이용한 분석 관련 키워드
+
+##### MRAM 상용화 및 공정 기술 관련 키워드 :
+ 
++ MRAM 상용화 공정 기술 (MRAM-commercialization process technology) - 시스템을 이용한 분석 관련 키워드
+
+
 
 ## Ⅱ.토픽별 주제 선정 및 키워드 도출
 
