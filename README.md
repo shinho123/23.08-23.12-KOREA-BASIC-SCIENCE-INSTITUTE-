@@ -59,4 +59,15 @@ ldamodel.print_topics(num_words = 10)
 + Topic 4는 다양한 소재에서 쌓인 스택과 스페이서를 통해 자기저항을 가지는 트랜지스터와 관련된 키워드로 구성되어 있음
 + material - 소재, stack - 쌓다, magnetoresistive - 자기저항, spacer - 스페이서(게이트 단자의 사면을 Side Wall 형태로 둘러싼 절연막)
 
+### Topic 5 : 회로 전압 및 전류 특성(Circuit Voltage & Current Characteristics)
+![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/efa27428-632b-4930-854a-b3402c17d1a0)
+
++ Topic 5는 회로의 전압과 전류 특성에 대한 키워드로 구성되어 있음 특히 다수의 구조체를 통합하여 형성된 회로의 특성을 설명하고 있음
++ voltage, current - 전류/전압, circuit - 회로, plurality, integrated - 다수의 통합된, structures - 구조체
+
+### Topic 6 : 트랜지스터 데이터 유형 & 자화 특성(Transistor Type & Magnetization Characteristics)
+![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/94a54052-0d86-45cb-8730-397785c1a35e)
+
++ Topic 6는 트랜지스터의 다양한 데이터 유형과 자화 특성에 관한 키워드로 구성되어 있음
++ transistor - 트랜지스터, data - 데이터, magnetization - 자화(자계 중에 놓여진 물체가 자성을 띄는 것)
 
