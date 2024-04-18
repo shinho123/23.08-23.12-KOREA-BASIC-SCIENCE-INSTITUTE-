@@ -24,15 +24,6 @@
 
 + 데이터 수집 : Goole Patents에서 수집
 
-# 분석 결과
-+ LDA 분석 결과 - 국내·외 MRAM(Magnetoresistive Random Access Memory)과 Semiconductor를 포함하고 있는 160개의 데이터 세트를 분석
-+ 특허의 'abstract'속성과 'title' 부분의 데이터를 결합 후 LDA 토픽 분석을 수행
-+ MRAM과 연관되어 있는 특허에서 주로 중요한 관점으로 도출 되는 기술 키워드들을 분석
-  
-```python
-ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics = 6, id2word = dictionary, random_state = 3)
-ldamodel.print_topics(num_words = 10)
-```
 ## Ⅰ. KBSI 연구 개요에서 기술 관련 키워드 추출 → 기술 키워드 조합 → 검색 조건으로 설정 후 해외(국내 제외) 특허 검색 및 저장
 
 ### 기술 키워드 조합 순서 및 조건 : 
@@ -107,9 +98,19 @@ ldamodel.print_topics(num_words = 10)
 
 ![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/26dc0ab1-b737-45f7-9b46-f263036747c1)
 
+## Ⅱ.토픽별 주제 선정 및 키워드(Semiconductor) 도출
 
-## Ⅱ.토픽별 주제 선정 및 키워드 도출
+# 분석 방법
++ LDA 분석 결과 - 수집된 해외 특허 데이터중 MRAM(Magnetoresistive Random Access Memory)과 Semiconductor를 포함하고 있는 160개의 데이터 세트를 분석
++ 특허의 'abstract'속성과 'title' 부분의 데이터를 결합 후 LDA 토픽 분석을 수행
++ MRAM과 연관되어 있는 특허에서 주로 중요한 관점으로 도출 되는 기술 키워드들을 분석
+  
+```python
+ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics = 6, id2word = dictionary, random_state = 3)
+ldamodel.print_topics(num_words = 10)
+```
 
+# 분석 결과
 ### Topic 1 : 절연 소재 및 제조 과정(Insulating Material & Manufacturing Process)
 ![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/0cac3017-0612-4fb7-85c3-0daedc66a9cd)
 
@@ -145,4 +146,13 @@ ldamodel.print_topics(num_words = 10)
 
 + Topic 6는 트랜지스터의 다양한 데이터 유형과 자화 특성에 관한 키워드로 구성되어 있음
 + transistor - 트랜지스터, data - 데이터, magnetization - 자화(자계 중에 놓여진 물체가 자성을 띄는 것)
+
+## Ⅲ. 네트워크 분석
+
+### 분석 데이터 : Mram + Semiconductor(160개 데이터세트)
+### 분석 사용 프로그램 : Gephi
+
+## 분석 결과
+
+![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/b4ab1810-50a8-4ff8-b108-d7515bcadbb2)
 
