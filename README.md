@@ -33,12 +33,12 @@
 ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics = 6, id2word = dictionary, random_state = 3)
 ldamodel.print_topics(num_words = 10)
 ```
-## Ⅰ. KBSI 연구 개요에서 기술 관련 키워드 추출 → 기술 키워드 조합 → 특허 검색 조건으로 설정 후 검색 및 저장
+## Ⅰ. KBSI 연구 개요에서 기술 관련 키워드 추출 → 기술 키워드 조합 → 검색 조건으로 설정 후 해외(국내 제외) 특허 검색 및 저장
 
 ### 기술 키워드 조합 순서 및 조건 : 
-1. 연구개요에서 기술적인 의미를 내포하는 키워드의 조합
-2. 단일 키워드지만 키워드 길이 자체가 매우 긴 키워드(키워드 자체만으로 기술적인 의미를 내포하고 있음)
-3. 다른 키워드와 함께 조합하면 검색되지 않으나 단일 키워드 검색만으로 많은 특허가 검색되는 키워드
++ 연구개요에서 기술적인 의미를 내포하는 키워드의 조합
++ 단일 키워드지만 키워드 길이 자체가 매우 긴 키워드(키워드 자체만으로 기술적인 의미를 내포하고 있음)
++ 다른 키워드와 함께 조합하면 검색되지 않으나 단일 키워드 검색만으로 많은 특허가 검색되는 키워드
 
 #### 1. 연구개요에서 기술적인 의미를 내포하는 키워드의 조합
 + "극저온 전도냉각형 다축 자기장환경 프로브 스테이션 개발", "자성 메모리 소자의 특성", "메모리 소자 성능 개선 및 신소자 개발",
@@ -68,7 +68,6 @@ ldamodel.print_topics(num_words = 10)
 
 ##### 전력반도체 및 반도체 검사장비 관련 키워드 : 
  
-
 + 양산용 반도체 검사장비 (semiconductor inspection equipment for mass production) - 시스템 관련 키워드
 + wafer level 검사장비 (wafer inspection equipment) - 시스템 관련 키워드
 + 자기메모리 (MRAM) / 멤리스터 (memristor) - 시스템을 이용한 분석 관련 키워드
@@ -97,6 +96,16 @@ ldamodel.print_topics(num_words = 10)
 ##### MRAM 상용화 및 공정 기술 관련 키워드 :
  
 + MRAM 상용화 공정 기술 (MRAM-commercialization process technology) - 시스템을 이용한 분석 관련 키워드
+
+#### 5. 기술 키워드 조합 후 해외 특허 검색
+
+##### 특허 검색 조건
+
+![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/63dee37e-cec6-4b94-8369-269ab7abe5fd)
+
+#### 6. 검색 결과
+
+![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/26dc0ab1-b737-45f7-9b46-f263036747c1)
 
 
 
