@@ -25,7 +25,8 @@
 + 데이터 수집 : Goole Patents에서 수집
 
 # 분석 결과
-+ LDA 분석 결과 - 국내·외 MRAM(Magnetoresistive Random Access Memory)과 연관되어 있는 특허(총 31,148건) 중 특허의 'abstract'속성과 'title' 부분의 데이터를 결합 후 LDA 토픽 분석을 수행
++ LDA 분석 결과 - 국내·외 MRAM(Magnetoresistive Random Access Memory)과 Semiconductor를 포함하고 있는 160개의 데이터 세트를 분석
++ 특허의 'abstract'속성과 'title' 부분의 데이터를 결합 후 LDA 토픽 분석을 수행
 + MRAM과 연관되어 있는 특허에서 주로 중요한 관점으로 도출 되는 기술 키워드들을 분석
   
 ```python
