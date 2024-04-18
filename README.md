@@ -184,4 +184,27 @@ ldamodel.print_topics(num_words = 10)
   + 각도 및 위치 조절 : Angle, Change, Target
   + 기타 : According, Embodiment
 
+#### 과학 및 연구 장비 열(온도) 측정
+
+![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/5fdd9ae0-9a2f-4c66-8f9b-4f7f787d9630)
+
++ 관련 단어
+  + 과학 및 연구 장비 : Invention, Microscope, Electron, Specimen
+  + 열 및 온도 : Temperature, Heat, Thermal
+  + 유체 및 액체 : Liquid
+  + 장치 및 부착 : Holder, Mounted
+  + 측정 및 운영 : Measure, Operation, Comprising
+  + 유형 및 구분 : Type
+
+#### 상태 및 양 측정 / 분석
+
+![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/fa4ea23e-5352-4efd-92d6-92fd437e06d6)
+
++ 관련 단어
+  + 위치 및 상태 : Out, Postion, Where, After
+  + 양 / 수량 : Amount, Number, Two, Each
+  + 생성 및 분석 : Generated, Analysis, Containing
+  + 비교 : Than
+
+
 
