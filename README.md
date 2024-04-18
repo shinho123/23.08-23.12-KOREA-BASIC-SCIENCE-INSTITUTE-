@@ -35,12 +35,28 @@ ldamodel.print_topics(num_words = 10)
 
 ## 토픽별 주제 선정 및 키워드 도출
 
-![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/bed3332a-dee0-4b52-9ea1-e9675a0d8017)
+### Topic 1 : 절연 소재 및 제조 과정(Insulating Material & Manufacturing Process)
+![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/0cac3017-0612-4fb7-85c3-0daedc66a9cd)
 
 + Topic 1은 박막 및 회로 구조에서 바닥 부분에 위치한 절연 소재와 소재의 제조 과정에 관한 키워드로 구성되어 있음
 + insulating, dielectric - 절연소재, element, material - 소재, 성분, bottom, area - 위치, barrier - 경계, ferromagnetic - 자성 소재 
 
+### Topic 2 : 유전체 표면 및 에칭(Dielectric & Etching)
+![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/906dc55c-73c7-4a6c-9099-08b663701da0)
 
++ Topic 2는 유전체 표면과 에칭 과정과 관련된 키워드로 구성되어 있음
++ dielectric - 유전체(전기가 잘 안통하는), etch - 에칭(etching), magnetoresistive - 자기저항
 
+### Topic 3 : 자기저항 구조체 및 데이터 저장(Magnetoresistive Structures & Data Storage)
+![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/7141f972-a513-4119-8645-e87c904f4fb2)
+
++ Topic 3는 자기저항을 가지는 구조체와 데이터 저장에 관련된 키워드로 구성되어 있음
++ magnetoresistive - 자기저항, structures - 구조체, data - 데이터, dielectric - 유전체(전기가 잘 통하지 않는 물질) 
+
+### Topic 4 : 소재 스택 및 스페이서(Material Stack & Spacer)
+![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/9405809b-938d-4b73-bc01-cf18e95c7623)
+
++ Topic 4는 다양한 소재에서 쌓인 스택과 스페이서를 통해 자기저항을 가지는 트랜지스터와 관련된 키워드로 구성되어 있음
++ material - 소재, stack - 쌓다, magnetoresistive - 자기저항, spacer - 스페이서(게이트 단자의 사면을 Side Wall 형태로 둘러싼 절연막)
 
 
