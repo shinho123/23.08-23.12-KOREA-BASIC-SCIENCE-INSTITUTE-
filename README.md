@@ -20,8 +20,8 @@
 ![image](https://github.com/shinho123/23.08-23.12-KOREA-BASIC-SCIENCE-INSTITUTE-/assets/105840783/4026b77a-ca3c-4d91-a390-e795af04cd62)
 
 # 수행 역할
-+ 특허 데이터 수집(Google Patents), 데이터 필터링, 데이터 전처리, LDA 토픽 모델링, 네트워크 분석
 
++ 특허 데이터 수집(Google Patents), 데이터 필터링, 데이터 전처리, LDA 토픽 모델링, 네트워크 분석
 + 데이터 수집 : Goole Patents에서 수집
 
 ## Ⅰ. KBSI 연구 개요에서 기술 관련 키워드 추출 → 기술 키워드 조합 → 검색 조건으로 설정 후 미국 특허 검색 및 저장
